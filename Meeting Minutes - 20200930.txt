@@ -1,5 +1,10 @@
 
-Recommendations to increase bookings and decrease losses due to cancellations.
+Research Question: What are the factors predictive of hotel booking cancelations.
+
+Goal of the Research:
+Identify the most relevant factors for booking cancellation,
+Predict cancelations using machine learning model;
+Provide recommendations to decrease losses due to cancellations.
 
 Dataset: hotel_booking.csv
 
