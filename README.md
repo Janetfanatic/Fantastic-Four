@@ -17,13 +17,15 @@ We will also include other factors not in the data-set including: distance from 
 
 ## What we'll try to answer with the data: 
 
-1. Does distance from the hotel affect cancellations?
-2. What are the top countries who book? Who cancel?
-3. Is there a Resort or City Preferences
-4. What are the most most relevant factors for booking cancellation?
-5. What machine learning model has the highest accuracy:
-6. Provide recommendations to decrease losses due to cancellations.
+Which hotel reservation attribute is the best predictor of cancelations?
 
+1. Does a higher average daily rate mean fewer cancelations?
+2. Do hotel reservations from certain countries result in higher cancelations?
+3. Are repeat guests less likely to cancel?
+4. Do reservations made directly through the hotel result in lower cancelations?
+5. Do more special requests mean fewer cancelations?
+
+Proposal: Provide insights to decrease losses due to cancellations.
 
 ## Machine Learning Model
 
