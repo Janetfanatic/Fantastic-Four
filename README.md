@@ -24,6 +24,7 @@ Which hotel reservation attribute is the best predictor of cancelations?
 3. Are repeat guests less likely to cancel?
 4. Do reservations made directly through the hotel result in lower cancelations?
 5. Do more special requests mean fewer cancelations?
+6. Does a higher lead time result in more cancelations?
 
 Proposal: Provide insights to decrease losses due to cancellations.
 
