@@ -47,3 +47,10 @@ We will also attempt to do a linear regression to see performance of different f
 4. CSV for *Dataset*
 5. Tableau for *Visualization*
 6. Github for *repo*
+
+## Datasources
+1. Hotel Booking Demand Data Set
+- https://www.kaggle.com/jessemostipak/hotel-booking-demand
+2. GDP Per Capita Data Set
+- https://unstats.un.org/unsd/snaama/Basic
+- Note: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
