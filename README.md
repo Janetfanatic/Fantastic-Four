@@ -32,9 +32,9 @@ Proposal: Provide insights to decrease losses due to cancellations.
 
 We will try the following MLMs in our analysis:
 
-1. ADA Boost
+1. Logistic Regression
 2. Random Forest
-3. Logistic Regression
+3. ADA Boost
 
 ## Statistical analysis:
 
