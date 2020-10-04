@@ -38,7 +38,7 @@ We will try the following MLMs in our analysis:
 
 ## Statistical analysis:
 
-We will also attempt to do a linear regression to see performance of different factors in the analysis. Correlation and t-test analysis will also be completed as necessary.
+We will also complete a Pearson correlation study to see which factors are related to cancelation and t-test analysis will also be completed as necessary.
 
 ## Technologies we will be using:
 1. Jupyter Notebook for *code and ML algo (likely supervised)*
