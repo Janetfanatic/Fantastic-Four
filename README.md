@@ -54,3 +54,10 @@ We will also complete a Pearson correlation study to see which factors are relat
 2. GDP Per Capita Data Set
 - https://unstats.un.org/unsd/snaama/Basic
 - Note: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
+
+## Possible supplemental material
+1. World Happiness Report
+- https://www.kaggle.com/unsdsn/world-happiness
+- https://worldhappiness.report/ed/2015/
+- https://worldhappiness.report/ed/2016/
+- https://worldhappiness.report/ed/2017/
