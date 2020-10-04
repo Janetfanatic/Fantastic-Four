@@ -19,12 +19,12 @@ We will also include other factors not in the data-set including: distance from 
 
 Which hotel reservation attribute is the best predictor of cancelations?
 
-1. Does a higher average daily rate mean fewer cancelations?
-2. Do hotel reservations from certain countries result in higher cancelations?
+1. Does a higher average daily rate (ADR) mean fewer cancelations?
+2. Do hotel reservations from certain countries (country) result in higher cancelations?
 3. Are repeat guests less likely to cancel?
 4. Do reservations made directly through the hotel result in lower cancelations?
 5. Do more special requests mean fewer cancelations?
-6. Does a higher lead time result in more cancelations?
+6. Does a higher lead time (lead_time) result in more cancelations?
 
 Proposal: Provide insights to decrease losses due to cancellations.
 
