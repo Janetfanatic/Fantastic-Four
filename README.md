@@ -2,7 +2,7 @@
 
 ## Research Question: 
 
-What are the factors predictive of hotel booking cancelations?
+Which factors i.e. features in the data set are the best for predicting hotel booking cancelations?
 
 ## Why we chose the topic: 
 
