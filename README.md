@@ -6,7 +6,7 @@ Which factors i.e. features in the data set are the best for predicting hotel bo
 
 ## Why we chose the topic: 
 
-Although specially obvious during the pandemic, cancelations is probably one of the biggest factors that directly affects a hotel's bottom-line. We were interested to find out the factors that contribute to cancelations and use a machine learning model to predict the chance of a hotel guest to cancel their reservation using available data on hotel bookings and cacnelation rates. This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancelations.
+Cancelations are probably one of the biggest factors that directly affects a hotel's bottom-line.  We were interested to find out the factors that contribute to cancelations and use a machine learning model to predict the chance of a hotel guest to cancel their reservation using available data on hotel bookings and cancellation rates. This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancelations.
 
 ## Dataset: hotel_booking.csv
 
