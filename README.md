@@ -14,6 +14,9 @@ This datasets contains hotel demand data. One of the hotels (H1) is a resort hot
 
 We will also include other factors not in the data-set including: distance from the hotel. 
 
+## Communications Protocols
+
+Communication protocols have been quite good overall.  Each of us have made an effort to meet via Zoom as often as our schedules allow.  2 or more of us from the group have been present at both Tuesday and Thursday classes in order to make sure that we receive any feedback that's offered from the TAs and Dev.  We also joined at least 1 if not more of the office hours available during the week.  Chatting via Slack has helped answer the small/simple questions throughout the week and them sometimes we jump on Zoom calls to work out bugs and issues that can't be resolved over Slack.  The protocols mentioned here have kept us from getting stuck on bottlenecks and falling behind.
 
 ## What we'll try to answer with the data: 
 
