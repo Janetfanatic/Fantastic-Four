@@ -1,64 +1,62 @@
-# Final Project: Columbia BC 
+# Final Project: Hotel Booking Cancellations
 
-## Research Question: 
+## Research Question
 
-Which factors i.e. features in the data set are the best for predicting hotel booking cancelations?
+Which features in the data set are the best for predicting hotel booking cancellations?
 
-## Why we chose the topic: 
+## Why We Chose This Topic
 
-Cancelations are probably one of the biggest factors that directly affects a hotel's bottom-line.  We were interested to find out the factors that contribute to cancelations and use a machine learning model to predict the chance of a hotel guest to cancel their reservation using available data on hotel bookings and cancellation rates. This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancelations.
+Cancellations are probably one of the biggest factors that directly affects a hotel's bottom-line.  We were interested to find out the factors that contribute to cancellations and use a machine learning model to predict the chance that a hotel guest will cancel their reservation using available data on hotel bookings and cancellation rates.  This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancellations.
 
-## Dataset: hotel_booking.csv
+## The Datasets
 
-This datasets contains hotel demand data. One of the hotels (H1) is a resort hotel and the other is a city hotel (H2). Both datasets share the same structure, with 31 variables describing the 40,060 observations of H1 and 79,330 observations of H2. Each observation represents a hotel booking. Both datasets comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. Since this is hotel real data, all data elements pertaining hotel or costumer identification were deleted. Due to the scarcity of real business data for scientific and educational purposes, these datasets can have an important role for research and education in revenue management, machine learning, or data mining, as well as in other fields. https://doi.org/10.1016/j.dib.2018.11.126
+1) hotel_booking.csv
 
-We will also include other factors not in the data-set including: distance from the hotel. 
+This dataset contains hotel booking data. One of the hotels (H1) is a resort hotel and the other (H2) is a city hotel.  Both datasets share the same structure, with 31 variables describing the 40,060 observations of H1 and 79,330 observations of H2. Each observation represents a hotel booking. Both datasets comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. Since this is hotel real data, all data elements pertaining to hotel or costumer identification were deleted.  Due to the scarcity of real business data for scientific and educational purposes, these datasets can have an important role for research and education in revenue management, machine learning, or data mining, as well as in other fields. 
+
+Source: https://www.kaggle.com/jessemostipak/hotel-booking-demand
+Context: https://doi.org/10.1016/j.dib.2018.11.126
+
+2) Country.csv
+
+This is a dataset comprised of country names, 3 letter country codes, and GDP per capita information.  We thought it would be helpful to add another feature to our ML models that wasn't apart of the original hotel_booking data set.  This data set is joined with the much larger hotel_booking.csv in our Jupyter Notebook to expand the number of features available in our analysis.
+
+Source: https://unstats.un.org/unsd/snaama/Basic
+Context: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
 
 ## Communications Protocols
 
 Communication protocols have been quite good overall.  Each of us have made an effort to meet via Zoom as often as our schedules allow.  2 or more of us from the group have been present at both Tuesday and Thursday classes in order to make sure that we receive any feedback that's offered from the TAs and Dev.  We also joined at least 1 if not more of the office hours available during the week.  Chatting via Slack has helped answer the small/simple questions throughout the week and them sometimes we jump on Zoom calls to work out bugs and issues that can't be resolved over Slack.  The protocols mentioned here have kept us from getting stuck on bottlenecks and falling behind.
 
-## What we'll try to answer with the data: 
+## Our Questions 
 
-Which hotel reservation attribute is the best predictor of cancelations?
+Which hotel reservation attribute is the best predictor of cancellations?
 
-1. Does a higher average daily rate (ADR) mean fewer cancelations?
-2. Do hotel reservations from certain countries (country) result in higher cancelations?
-3. Are repeat guests less likely to cancel?
-4. Do reservations made directly through the hotel result in lower cancelations?
-5. Do more special requests mean fewer cancelations?
-6. Does a higher lead time (lead_time) result in more cancelations?
+1. Does a higher average daily rate (ADR) mean fewer cancellations?
+2. Do hotel reservations from certain countries (country) result in higher cancellations?
+3. Does a higher lead time (lead_time) result in more cancellations?
 
 Proposal: Provide insights to decrease losses due to cancellations.
 
-## Machine Learning Model
+## Machine Learning Models
 
 We will try the following MLMs in our analysis:
 
-1. Logistic Regression
-2. Random Forest
-3. ADA Boost
+1. Decision Tree Model 
+2. Logistic Regression
+3. Random Forest
+4. ADA
 
-## Statistical analysis:
+## Technologies Used
+1. Jupyter Notebook - Code and ML algorith
+2. Imported libraries - see Jupyter Notebook for full list
+3. PostGres - Our local database with ERD
+4. CSVs - Initial data source
+5. S3 AWS - Hosting the PostGres database
+6. Tableau - Visualizations
+7. Github - Remote repositories
 
-We will also complete a Pearson correlation study to see which factors are related to cancelation and t-test analysis will also be completed as necessary.
-
-## Technologies we will be using:
-1. Jupyter Notebook for *code and ML algo (likely supervised)*
-2. Various imported libraries
-3. PostGres DB with ERD for *Database*
-4. CSV for *Dataset*
-5. Tableau for *Visualization*
-6. Github for *repo*
-
-## Datasources
-1. Hotel Booking Demand Data Set
-- https://www.kaggle.com/jessemostipak/hotel-booking-demand
-2. GDP Per Capita Data Set
-- https://unstats.un.org/unsd/snaama/Basic
-- Note: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
-
-## Possible supplemental material
+## Potential Supplemental Material
 1. World Happiness Report
 - https://www.kaggle.com/unsdsn/world-happiness
 - https://worldhappiness.report/ed/2015/
