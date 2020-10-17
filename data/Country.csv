@@ -1,4 +1,4 @@
-Country_Code,Country_Name,GDP_USD_1000
+country,country_name,gdp
 PRT,Portugal,23478
 ARG,Argentina,11688
 DNK,Denmark,61834
@@ -100,7 +100,7 @@ BOL,Bolivia (Plurinational State of),3549
 LCA,Saint Lucia,10566
 SLE,Sierra Leone,536
 FRA,France,41358
-CN,China,9771
+CHN,China,9771
 CZE,Czechia,22992
 AUT,Austria,51230
 CPV,Cabo Verde,3635
