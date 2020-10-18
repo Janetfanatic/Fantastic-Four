@@ -53,7 +53,7 @@ We will try the following MLMs in our analysis:
 3. PostGres - Our local database with ERD
 4. CSVs - Initial data source
 5. S3 AWS - Hosting the PostGres database
-6. Tableau - Visualizations
+6. Tableau - Visualizations- See File for Charts
 7. Github - Remote repositories
 
 ## Potential Supplemental Material
