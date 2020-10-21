@@ -24,10 +24,6 @@ This is a dataset comprised of country names, 3 letter country codes, and GDP pe
 Source: https://unstats.un.org/unsd/snaama/Basic
 Context: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
 
-## Communications Protocols
-
-Communication protocols have been quite good overall.  Each of us have made an effort to meet via Zoom as often as our schedules allow.  2 or more of us from the group have been present at both Tuesday and Thursday classes in order to make sure that we receive any feedback that's offered from the TAs and Dev.  We also joined at least 1 if not more of the office hours available during the week.  Chatting via Slack has helped answer the small/simple questions throughout the week and them sometimes we jump on Zoom calls to work out bugs and issues that can't be resolved over Slack.  The protocols mentioned here have kept us from getting stuck on bottlenecks and falling behind.
-
 ## Our Questions 
 
 Which hotel reservation attribute is the best predictor of cancellations?
