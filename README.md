@@ -6,7 +6,7 @@ Which features in the data set are the best for predicting hotel booking cancell
 
 ## Why We Chose This Topic
 
-Cancellations are probably one of the biggest factors that directly affects a hotel's bottom-line.  We were interested to find out the factors that contribute to cancellations and use a machine learning model to predict the chance that a hotel guest will cancel their reservation using available data on hotel bookings and cancellation rates.  This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancellations.
+Cancellations are one of the biggest factors that directly affects a hotel's bottom-line.  We were interested to find out the factors that contribute to cancellations and use a machine learning model to predict the chance that a hotel guest will cancel their reservation using available data on hotel bookings and cancellation rates.  This will help hotel owners and managers to find ways to mitigate and counteract the negative effects of cancellations.
 
 ## The Datasets
 
@@ -15,7 +15,7 @@ Cancellations are probably one of the biggest factors that directly affects a ho
 This dataset contains hotel booking data. One of the hotels (H1) is a resort hotel and the other (H2) is a city hotel.  Both datasets share the same structure, with 31 variables describing the 40,060 observations of H1 and 79,330 observations of H2. Each observation represents a hotel booking. Both datasets comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. Since this is hotel real data, all data elements pertaining to hotel or costumer identification were deleted.  Due to the scarcity of real business data for scientific and educational purposes, these datasets can have an important role for research and education in revenue management, machine learning, or data mining, as well as in other fields. 
 
 Source: https://www.kaggle.com/jessemostipak/hotel-booking-demand
-Context: https://doi.org/10.1016/j.dib.2018.11.126
+Additional Context: https://doi.org/10.1016/j.dib.2018.11.126
 
 2) Country.csv
 
