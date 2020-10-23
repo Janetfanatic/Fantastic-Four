@@ -86,7 +86,7 @@ In addition to this preferred model, we also found answers to our three initial 
 
 ## Our Roles for Segment 3
 
-(Jonny)    Square: Completed peer reviews on the code, update README files with story, delete branches, etc
-(Charlene) Triangle: Created a draft presentation to share with your class and some dashboard work
-(Tong)     Circle: Created a dashboard to display your findings
-(Oliver)   X: Performed a quality assurance check on project deliverables against rubric requirements, and tested the code.
+- (Jonny)    Square: Completed peer reviews on the code, update README files with story, delete branches, etc
+- (Charlene) Triangle: Created a draft presentation to share with your class and some dashboard work
+- (Tong)     Circle: Created a dashboard to display your findings
+- (Oliver)   X: Performed a quality assurance check on project deliverables against rubric requirements, and tested the code.
