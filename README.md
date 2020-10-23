@@ -78,15 +78,15 @@ https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7T
 In addition to this preferred model, we also found answers to our three initial questions:
 
 - Q: Does a higher average daily rate (ADR) mean fewer cancellations?
-- A: --- insert answer here ---
+- A: No, the ADR of a hotel booking does not have a significant impact on whether or not it will cancel
 - Q: Do hotel reservations from certain countries (country) result in higher cancellations?
-- A: --- insert answer here ---
+- A: Yes, bookings from some countries will have a much higher rate (percentage) of cancelation but when we looked at the count of cancelations by country, only Portugal stands out.  This tells us that local hotel bookings made within the country are potentially less planned out in advance and more likely to cancel than bookings made from adjacent or far off countries that require more planning.  
 - Q: Does a higher lead time (lead_time) result in more cancellations?
-- A: --- insert answer here ---
+- A: Yes, the farther in advance a booking reservation is made, the more likely it is to be canceled.
 
 ## Our Roles for Segment 3
 
-Square: Complete peer reviews on the code.
-Triangle: Create a draft presentation to share with your class.
-Circle: Create a dashboard to display your findings.
-X: Perform a quality assurance check on project deliverables against rubric requirements, and test the code.
+(Jonny)    Square: Completed peer reviews on the code, update README files with story, delete branches, etc
+(Charlene) Triangle: Created a draft presentation to share with your class and some dashboard work
+(Tong)     Circle: Created a dashboard to display your findings
+(Oliver)   X: Performed a quality assurance check on project deliverables against rubric requirements, and tested the code.
