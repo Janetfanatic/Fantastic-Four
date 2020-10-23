@@ -24,37 +24,62 @@ This is a dataset comprised of country names, 3 letter country codes, and GDP pe
 Source: https://unstats.un.org/unsd/snaama/Basic
 Context: The UN stats site above only provide GDP data for around  80% of the countries in the Hotel Booking Demand Data Set, so we collected GDP data on the remaining 20% of countries from data sources World Bank & Wikipedia.
 
-## Our Questions 
+## Our Questions
 
 Which hotel reservation attribute is the best predictor of cancellations?
 
-1. Does a higher average daily rate (ADR) mean fewer cancellations?
-2. Do hotel reservations from certain countries (country) result in higher cancellations?
-3. Does a higher lead time (lead_time) result in more cancellations?
+- Q: Does a higher average daily rate (ADR) mean fewer cancellations?
+- Q: Do hotel reservations from certain countries (country) result in higher cancellations?
+- Q: Does a higher lead time (lead_time) result in more cancellations?
 
-Proposal: Provide insights to decrease losses due to cancellations.
+## High Level Workflow And Technologies Used
 
-## Machine Learning Models
+Step 1: Identified our hotel booking data set and confirmed their validity and uploaded to our github repo
+Step 2: Created an additional data set with GDP per capita info from countries in our booking data set
+Step 3: Created a jupyter notebook and created Python code to read in the initial data sets and understand the context behind each feature
+Step 4: Created a PostGres DB plus schema on a local device and uploaded our two tables to that
+Step 5: Hosted the DB on AWS's S3 and wrote more Python code to connect our hosted DB to jupyter notebook
+Step 6: Continued doing EDA and writing more code to drop various columns, use getdummies, create correlation heatmaps, split the data using sklearn, make x and y variables for training/testing, and classification reports to compare and evaluate each model's results.
+Step 7: Idenified a preferred model which is the decision tree model
+Step 8: Described opportunties for the hotels/resorts to use these insights to make predictions around cash flow estimates, appropriate staffing, and preventing over or underbooking rooms.
+Step 9: Built a dashboard with Tableau to visualize our initial quetsions/answers and a presentation story for where we started and where we arrived
+Step 10: Cleaned up our github repo by removing uneeded files and merging branches (if necessary)
 
-We will try the following MLMs in our analysis:
+Technologies Used
+- See requirements.txt file in github repo for a detailed breakdown
 
+## EDA And ML Models Used
+
+We did the following exploratory data analysis and used the following models for making predictions:
+ 
+A Few EDA Insights
+- 37% of hotel reservations in the data set ended up being canceled
+- We dropped a few columns that lots of missing values and kept the country column, which has 6.7% missing values, so that we could use it for joining with another data set called Country.csv.
+- We had no features that were highly correlated (over 0.7 or under 0.7)
+
+Models Used
 1. Decision Tree Model 
 2. Logistic Regression
 3. Random Forest
 4. ADA
 
-## Technologies Used
-1. Jupyter Notebook - Code and ML algorith
-2. Imported libraries - see Jupyter Notebook for full list
-3. PostGres - Our local database with ERD
-4. CSVs - Initial data source
-5. S3 AWS - Hosting the PostGres database
-6. Tableau - Visualizations- See File for Charts
-7. Github - Remote repositories
+## Highest Performing Model
+After running all four models and comparing accuracy scores and classification reports, the Decision Tree Model became the preferred model with the following stats: 
 
-## Potential Supplemental Material
-1. World Happiness Report
-- https://www.kaggle.com/unsdsn/world-happiness
-- https://worldhappiness.report/ed/2015/
-- https://worldhappiness.report/ed/2016/
-- https://worldhappiness.report/ed/2017/
+- Accuracy: 98%
+- Precision: 98% avg
+- Recall: 98% avg
+
+## Presentation Link
+https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_36
+
+## Answering Our Initial Questions
+
+In addition to this preferred model, we also found answers to our three initial questions:
+
+- Q: Does a higher average daily rate (ADR) mean fewer cancellations?
+- A: --- insert answer here ---
+- Q: Do hotel reservations from certain countries (country) result in higher cancellations?
+- A: --- insert answer here ---
+- Q: Does a higher lead time (lead_time) result in more cancellations?
+- A: --- insert answer here ---
