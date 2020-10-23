@@ -83,3 +83,10 @@ In addition to this preferred model, we also found answers to our three initial 
 - A: --- insert answer here ---
 - Q: Does a higher lead time (lead_time) result in more cancellations?
 - A: --- insert answer here ---
+
+## Our Roles for Segment 3
+
+Square: Complete peer reviews on the code.
+Triangle: Create a draft presentation to share with your class.
+Circle: Create a dashboard to display your findings.
+X: Perform a quality assurance check on project deliverables against rubric requirements, and test the code.
