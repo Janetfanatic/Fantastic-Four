@@ -66,7 +66,7 @@ Models Used
 ## Highest Performing Model
 After running all four models and comparing accuracy scores and classification reports, the Decision Tree Model became the preferred model with the following stats: 
 
-- Accuracy: 98%
+- Accuracy: 98% avg
 - Precision: 98% avg
 - Recall: 98% avg
 
@@ -86,7 +86,7 @@ In addition to this preferred model, we also found answers to our three initial 
 
 ## Our Roles for Segment 3
 
-- (Jonny)    Square: Completed peer reviews on the code, update README files with story, delete branches, etc
+- (Jonny)    Square: Reviewed the code, updated the README file with storyline, delete some branches, etc
 - (Charlene) Triangle: Created a draft presentation to share with your class and some dashboard work
 - (Tong)     Circle: Created a dashboard to display your findings
 - (Oliver)   X: Performed a quality assurance check on project deliverables against rubric requirements, and tested the code.
