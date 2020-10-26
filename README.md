@@ -63,6 +63,10 @@ Models Used
 3. Random Forest
 4. ADA
 
+## Training and Testing Sets
+
+We split the dataset with "is_cancelled" variable as the target. Dividing the data with a 30% testing and 70% training sets.
+
 ## Data Pre-processing and Feature Engineering
 
 After analyzing the different features we removed duplicate features such as the "country" feature and removed features that are highly correlated with the "is_cancelled" feature. We also, removed features with significant number of null values ("agent" and "company"). We added the most common values for features that had only few missing values ("children"). We also used a standard scaler to balance data.
