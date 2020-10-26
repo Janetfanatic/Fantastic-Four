@@ -63,12 +63,20 @@ Models Used
 3. Random Forest
 4. ADA
 
+## Data Pre-processing and Feature Engineering
+
+After analyzing the different features we removed duplicate features such as the "country" feature and removed features that are highly correlated with the "is_cancelled" feature. We also, removed features with significant number of null values ("agent" and "company"). We added the most common values for features that had only few missing values ("children"). We also used a standard scaler to balance data.
+
+We added GDP values which turned out to be a good decision since it increased our accuracy scores from 88% to 97%.
+
 ## Highest Performing Model
 After running all four models and comparing accuracy scores and classification reports, the Decision Tree Model became the preferred model with the following stats: 
 
 - Accuracy: 98% avg
 - Precision: 98% avg
 - Recall: 98% avg
+
+We are happy with the predictive scores that we achieved and will no longer do any additional training or model change.
 
 ## Presentation Link
 https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_36
