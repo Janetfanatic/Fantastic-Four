@@ -85,6 +85,9 @@ We are happy with the predictive scores that we achieved and will no longer do a
 ## Presentation Link
 https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_36
 
+## Dashboard Link
+https://public.tableau.com/profile/tong.li6253#!/vizhome/Hotel_bookings_DB_Extract/FinalDashBoard?publish=yes
+
 ## Answering Our Initial Questions
 
 In addition to this preferred model, we also found answers to our three initial questions:
@@ -98,7 +101,7 @@ In addition to this preferred model, we also found answers to our three initial 
 
 ## Our Roles for Segment 3
 
-- (Jonny)    Square: Reviewed the code, updated the README file with storyline, delete some branches, etc
-- (Charlene) Triangle: Created a draft presentation to share with your class and some dashboard work
-- (Tong)     Circle: Created a dashboard to display your findings
-- (Oliver)   X: Performed a quality assurance check on project deliverables against rubric requirements, and tested the code.
+- (Jonny)    Square: Final updates to the README.md on the project repository and make sure the repo is portfolio-ready by creating a description of the project, explaining why this topic was chosen, including images from the analysis, etc.
+- (Charlene) Triangle: 
+- (Tong)     Circle: Ensure all applicable PRs are merged in (includes finishing up peer reviews and merging branches). Conduct final editorial review (clean up code to meet coding guidelines, check for typos, etc.
+- (Oliver)   X: 
