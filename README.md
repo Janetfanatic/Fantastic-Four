@@ -83,7 +83,7 @@ After running all four models and comparing accuracy scores and classification r
 We are happy with the predictive scores that we achieved and will no longer do any additional training or model change.
 
 ## Presentation Link
-https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_36
+https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_10
 
 ## Dashboard Link
 https://public.tableau.com/profile/tong.li6253#!/vizhome/Hotel_bookings_DB_Extract/FinalDashBoard?publish=yes
