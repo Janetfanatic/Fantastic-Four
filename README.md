@@ -99,8 +99,13 @@ In addition to this preferred model, we also found answers to our three initial 
 
 - Q: Do hotel reservations from certain countries (country) result in higher cancellations?
 - A: Yes, bookings from some countries will have a much higher rate (percentage) of cancelation but when we looked at the count of cancelations by country, only Portugal stands out.  This tells us that local hotel bookings made within the country are potentially less planned out in advance and more likely to cancel than bookings made from adjacent or far off countries that require more planning.  
+
+![Visual](/Visualizations/Cancellations_by_country.png)
+
 - Q: Does a higher lead time (lead_time) result in more cancellations?
 - A: Yes, the farther in advance a booking reservation is made, the more likely it is to be canceled.
+
+![Visual](/Visualizations/Cancellation_by_lead_time.png)
 
 ## Our Roles for Segment 3
 
