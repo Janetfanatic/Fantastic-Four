@@ -107,9 +107,9 @@ In addition to this preferred model, we also found answers to our three initial 
 
 ![Visual](/Visualizations/Cancellation_by_lead_time.png)
 
-## Our Roles for Segment 3
+## Our Roles for Segment 4
 
 - (Jonny)    Square: Final updates to the README.md on the project repository and make sure the repo is portfolio-ready by creating a description of the project, explaining why this topic was chosen, including images from the analysis, etc.
-- (Charlene) Triangle: 
+- (Charlene) Triangle: Final touches on visual aspects with the presentation and dashboard. Make sure the images tell the story cleanly and clearly.
 - (Tong)     Circle: Ensure all applicable PRs are merged in (includes finishing up peer reviews and merging branches). Conduct final editorial review (clean up code to meet coding guidelines, check for typos, etc.
-- (Oliver)   X: 
+- (Oliver)   X: Review the rubric and ensure the project meets the requirements, and test the code.
