@@ -2,7 +2,7 @@
 
 ## Research Question
 
-Which features in the data set are the best for predicting hotel booking cancellations?
+Which factors i.e. features in the data set can help predict hotel booking cancelations?
 
 ## Why We Chose This Topic
 
