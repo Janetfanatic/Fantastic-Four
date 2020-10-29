@@ -119,6 +119,13 @@ In addition to this preferred model, we also found answers to our three initial 
 
 ![Visual](/Visualizations/Cancellation_by_lead_time.png)
 
+## Things We Would Have Done Differently
+
+- Use more advanced ML algorithms for optimization, different libraries, 
+- Train a neural network to do the analysis for comparison
+- Use more recent datasets for hotel bookings and GDP per capita figures
+
+
 ## Our Roles for Segment 4
 
 - (Jonny)    Square: Final updates to the README.md on the project repository and make sure the repo is portfolio-ready by creating a description of the project, explaining why this topic was chosen, including images from the analysis, etc.
