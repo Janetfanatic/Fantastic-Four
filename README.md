@@ -28,7 +28,7 @@ Context: The UN stats site above only provide GDP data for around  80% of the co
 
 Which hotel reservation attribute is the best predictor of cancellations?
 
-- Q: Does a higher average daily rate (ADR) mean fewer cancellations?
+- Q: Do bookings made by groups have lower cancellation rates than others?
 - Q: Do hotel reservations from certain countries (country) result in higher cancellations?
 - Q: Does a higher lead time (lead_time) result in more cancellations?
 
@@ -136,3 +136,9 @@ In addition to this preferred model, we also found answers to our three initial 
 - (Charlene) Triangle: Final touches on visual aspects with the presentation and dashboard. Make sure the images tell the story cleanly and clearly.
 - (Tong)     Circle: Ensure all applicable PRs are merged in (includes finishing up peer reviews and merging branches). Conduct final editorial review (clean up code to meet coding guidelines, check for typos, etc.
 - (Oliver)   X: Review the rubric and ensure the project meets the requirements, and test the code.
+
+## Presentation Workflow
+Slides 1-5: Jonny
+Slides 6-9: Tong
+Slides 10-12: Charlene
+Slides 13-15: Oliver
