@@ -98,7 +98,7 @@ We are happy with the predictive scores that we achieved and will no longer do a
 https://docs.google.com/presentation/d/1muwKq-j0MGhFVgiV1aK5NWnsYkrOIhxn2uy8uN7TzG0/edit#slide=id.g9e635f2e81_1_10
 
 ## Dashboard Link
-https://public.tableau.com/profile/tong.li6253#!/vizhome/Hotel_bookings_DB_Extract/FinalDashBoard?publish=yes
+https://public.tableau.com/profile/tong.li6253#!/vizhome/Final_Project_Hotel_bookings/FinalDashBoard
 
 ## Answering Our Initial Questions
 
