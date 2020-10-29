@@ -138,7 +138,7 @@ In addition to this preferred model, we also found answers to our three initial 
 - (Oliver)   X: Review the rubric and ensure the project meets the requirements, and test the code.
 
 ## Presentation Workflow
-Slides 1-5: Jonny
-Slides 6-9: Tong
-Slides 10-12: Charlene
-Slides 13-15: Oliver
+- Slides 1-5: Jonny
+- Slides 6-9: Tong
+- Slides 10-12: Charlene
+- Slides 13-15: Oliver
