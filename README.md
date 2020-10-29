@@ -48,7 +48,17 @@ Step 10: Cleaned up our github repo by removing uneeded files and merging branch
 Technologies Used
 - See requirements.txt file in github repo for a detailed breakdown
 
-## EDA And ML Models Used
+## Description of the Exploratory Analysis (EDA)
+
+1. Studied the descriptions of the different variables
+2. We looked at the different features of the dataset
+- Null values
+- Datatype
+- Number of observations
+- Outliers,
+- Human errors
+3. Understood the relationship (if any) between variables
+4. Clean dataset dropping variables not needed in the analysis
 
 We did the following exploratory data analysis and used the following models for making predictions:
  
@@ -56,6 +66,8 @@ A Few EDA Insights
 - 37% of hotel reservations in the data set ended up being canceled
 - We dropped a few columns that lots of missing values and kept the country column, which has 6.7% missing values, so that we could use it for joining with another data set called Country.csv.
 - We had no features that were highly correlated (over 0.7 or under 0.7)
+
+## Description of Analysis Part (MLM)
 
 Models Used
 1. Decision Tree Model 
