@@ -77,7 +77,11 @@ Models Used
 
 ## Training and Testing Sets
 
-We split the dataset with "is_cancelled" variable as the target. Dividing the data with a 30% testing and 70% training sets.
+- Dataset split into training and testing sets 
+- Hotel cancellations as ("is_cancelled" variable) as the target. 
+- 30% testing and 70% training set ratio
+- Bias avoided to ensure the training and testing datasets did not commingle .
+
 
 ## Data Pre-processing and Feature Engineering
 
